@@ -22,11 +22,6 @@ This is a simple shell script to generate direct download links for files hosted
 + Run as ```./gen_OneDriveDirectLink.sh``` or if the file doesn’t have execute permissions then as ```sh gen_OneDriveDirectLink.sh```
 + Test the direct links and they should work as expected. Report any issues you encounter.
 
-#### Dependencies:
-
-Needs ```grep``` and ```sed```.
-
-
 
 #### Example Input
 
@@ -49,4 +44,11 @@ https://onedrive.live.com/download?cid=657437BB22E4A6E0&resid=657437BB11E4B6E0%2
 https://onedrive.live.com/download?cid=657437BB22E4A6E0&resid=657437BB11E4B6A2%2136870&authkey=RosSJoEyWoW42
 
 ```
+
+#### Dependencies:
+
+Needs ```grep``` and ```sed```.
+
+#### Credits:
+I found the solution on [this blog](https://bydik.com/onedrive-direct-link/).
 
